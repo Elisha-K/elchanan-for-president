@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { useToast } from "@/hooks/use-toast";
 import { Mail, Instagram, Copy } from "lucide-react";
 
-const EMAIL = "elchanan.kiprotich@strathmore.edu";
+const EMAIL = "elchanan.kiptoo@strathmore.edu";
 const INSTAGRAM = "https://instagram.com/elchana.n";
 
 const ContactSection = () => {
@@ -12,8 +12,8 @@ const ContactSection = () => {
   const copyEmail = async () => {
     await navigator.clipboard.writeText(EMAIL);
     toast({
-      title: "Email copied",
-      description: "You can paste it anywhere to write to me :)",
+      title: "Email copied!",
+      description: "You can now paste it in your email to write to me :)",
     });
   };
 

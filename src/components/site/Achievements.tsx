@@ -27,9 +27,9 @@ const ACHIEVEMENTS: Achievement[] = [
     title: "OSGS System — from talk to action",
     image: imgCouncil,
     excerpt:
-      "Launched the Office of the Secretary General (OSGS) Senate system effectively channeling feedback from students to the council - your voice matters!",
+      "Launched the Office of the Secretary General Senate system (OSGS) effectively channeling feedback from students to the council - your voice matters!",
     details: [
-      "Implemented a transparent feedback loop with regular updates from the Council channeled to students via classreps",
+      "Implemented a transparent feedback loop with regular updates from the Council channelled to students via classreps",
       "Incorporated Class Reps from across the board improving representation and enabling inclusive decision making",
       "Improved overall synergy between Students and the Council - student ideas, grievances, suggestions brought into consideration during planning",
     ],
@@ -65,7 +65,7 @@ const ACHIEVEMENTS: Achievement[] = [
     excerpt:
       "Successfully organized a high-impact concert providing Strathmore's local talent with a solid platform for eloquent self-expression",
     details: [
-      "Turnout of over 500 students - Main Auditorium filled to overflowing",
+      "Drove a turnout of over 500 students - Main Auditorium filled to overflowing",
       "Showcased local Strathmore talent across multiple genres (dance, rap, song, drama, comedy etc)",
       "Provided a platform for support and visibility of our student artists",
     ],
@@ -84,7 +84,7 @@ const ACHIEVEMENTS: Achievement[] = [
     impact: "Community Building • Cultural Exchange • Sense of Belonging",
   },
   {
-    title: "Crisis Control: being a voice for the students",
+    title: "Crisis Control: voicing student concerns",
     image: imgStakeholders,
     excerpt:
       "Proactively engaged with key university stakeholders to amplify student voices during times of crisis",
@@ -113,9 +113,9 @@ const ACHIEVEMENTS: Achievement[] = [
       "Currently planning International Students' Week alongside SISA",
     details: [
       "Collaborating with SISA to create a week of events celebrating international students",
-      "Fostering connections between local and international students",
+      "Event geared towards fostering connections between local and international students",
     ],
-    impact: "Cultural Understanding • International Student Support • Unity in Diversity",
+    impact: "International Student Support • Cultural Understanding • Unity in Diversity",
   },
 ];
 

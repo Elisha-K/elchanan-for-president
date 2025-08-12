@@ -4,7 +4,7 @@ import { ArrowUpRight, Building2, Users, ShieldCheck, Rocket, BadgeDollarSign, H
 
 const pillars = [
   {
-    title: "United Council, Stronger Impact",
+    title: "I. United Council, Stronger Impact",
     icon: BicepsFlexed,
     points: [
       "End \"silo culture\" between dockets to ensure alignment on projects, timelines, resources and ideas",
@@ -14,7 +14,7 @@ const pillars = [
     ],
   },
   {
-    title: "Transparent and Accountable Funding",
+    title: "II. Transparent and Accountable Funding",
     icon: BadgeDollarSign,
     points: [
       "Publish spending summaries for all Council activities in Quarterly Financial Briefs ensuring transparency and accountability",
@@ -23,7 +23,7 @@ const pillars = [
     ],
   },
   {
-    title: "Student Community and Welfare",
+    title: "III. Student Community and Welfare",
     icon: Handshake,
     points: [
       "Strengthen mental health and suicide prevention efforts through peer-support training, \"Wellness First Responders\" per faculty, and quarterly mental health check-ins",
@@ -33,7 +33,7 @@ const pillars = [
     ],
   },
   {
-    title: "Space & Resource Expansion",
+    title: "IV. Space & Resource Expansion",
     icon:Expand,
     points: [
       "Develop a Sports Complex Chill Zone by transforming idle land into gazebos with seating and shaded decompressing areas",
@@ -43,7 +43,7 @@ const pillars = [
     ],
   },
   {
-    title: "Innovation Opportunities & Recognition",
+    title: "V. Innovation Opportunities & Recognition",
     icon: Rocket,
     points: [
       "Partner with @iLab, @iBiz, and innovation hubs to provide student's access to hackathons, entrepreneurship expos and mentorship",
