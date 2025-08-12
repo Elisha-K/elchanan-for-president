@@ -7,6 +7,12 @@ import imgBTC from "@/assets/btc.jpeg";
 import imgCampaign from "@/assets/campaign-poster.jpeg";
 import imgPressRelease from "@/assets/press-release.jpeg";
 import imgTreePlanting from "@/assets/tree-planting.jpeg";
+import imgCouncil from "@/assets/16th-council.jpeg";
+import imgIntStudents from "@/assets/international-students.jpeg";
+import imgModerating from "@/assets/e-moderating-in-shuka.jpeg";
+import imgStakeholders from "@/assets/before-stakeholders.jpeg";
+import imgTeambuilding from "@/assets/teambuilding.jpeg";
+
 
 type Achievement = {
   title: string;
@@ -19,7 +25,7 @@ type Achievement = {
 const ACHIEVEMENTS: Achievement[] = [
   {
     title: "OSGS System — from talk to action",
-    image: imgCampaign,
+    image: imgCouncil,
     excerpt:
       "Launched the Office of the Secretary General (OSGS) Senate system effectively channeling feedback from students to the council - your voice matters!",
     details: [
@@ -67,7 +73,7 @@ const ACHIEVEMENTS: Achievement[] = [
   },
   {
     title: "International Students: Made to feel at home",
-    image: imgCampaign,
+    image: imgTeambuilding,
     excerpt:
       "Organised and led teambuilding initiatives for international students fostering a sense of belonging and community.",
     details: [
@@ -79,7 +85,7 @@ const ACHIEVEMENTS: Achievement[] = [
   },
   {
     title: "Crisis Control: being a voice for the students",
-    image: imgCampaign,
+    image: imgStakeholders,
     excerpt:
       "Proactively engaged with key university stakeholders to amplify student voices during times of crisis",
     details: [
@@ -91,7 +97,7 @@ const ACHIEVEMENTS: Achievement[] = [
   },
   {
     title: "First Years - Welcomed and Supported",
-    image: imgCampaign,
+    image: imgModerating,
     excerpt:
       "Engaged First Year students right from orientation inspiring them to join clubs and participate in Strathmore's activities",
     details: [
@@ -102,7 +108,7 @@ const ACHIEVEMENTS: Achievement[] = [
   },
   {
     title: "International Students Week",
-    image: imgCampaign,
+    image: imgIntStudents,
     excerpt:
       "Currently planning International Students' Week alongside SISA",
     details: [
