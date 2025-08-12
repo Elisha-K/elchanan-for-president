@@ -9,15 +9,19 @@ const Hero = () => {
       <img
         src={heroImage}
         alt="Confident, dignified dark blue campaign backdrop with subtle aurora"
-        className="w-full object-cover object-center max-h-[90vh]"
+        className="absolute inset-0 h-full w-full object-cover object-center"
         loading="eager"
       />
 
+      {/* Background Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/40 to-background/10" />
 
-      <div className="absolute inset-0 flex items-end">
-        <div className="container mx-auto px-6 pb-12 md:pb-20">
-          <div className="max-w-3xl animate-enter">
+      {/* Content Layer */}
+        <div className="relative z-10 container mx-auto px-6 py-12 md:py-20">
+           {/* Responsive grid: text left, portrait right on md+ screens */}
+          <div className="grid md:grid-cols-2 items-center gap-8">
+            {/* LEFT: Campaign Text */}
+          <div className="max-w-3xl animate-enter text-left">
             <p className="mb-3 inline-flex items-center rounded-full bg-secondary/60 px-3 py-1 text-xs font-medium text-secondary-foreground">
               Proven leadership. Credible vision.
             </p>
@@ -39,9 +43,21 @@ const Hero = () => {
               </Button>
             </div>
           </div>
+            {/* RIGHT: Portrait Image with fade effect*/}
+            <div className="flex justify-center md:justify-end px-4 md:px-0">
+              <div className="relative w-3/4 md:w-full max-w-sm">
+              <img
+                src={portraitImage}
+                alt="Elchanan Kiptoo, candidate for University President"
+                className="max-h-[400px] md:max-h-[400px] max-w-full w-auto rounded-lg shadow-lg object-contain mx-auto"
+              />
+              {/* Fade effect at bottom of portrait */}
+                <div className="absolute inset-0 rounded-xl bg-gradient-to-t from-background/70 via-transparent to-transparent pointer-events-none" />
+              </div>
+            </div>
         </div>
       </div>
-    </header>
+  </header>
   );
 };
 
