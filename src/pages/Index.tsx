@@ -28,7 +28,7 @@ const Index = () => {
       <nav className="sticky top-0 z-40 border-b border-border/60 bg-background/70 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto flex h-14 items-center justify-between px-6">
           <NavLink to="/" className="font-display text-lg font-semibold">
-            Elchanan 2025-2026
+            Elchanan for President 2025-2026
           </NavLink>
           <div className="hidden items-center gap-6 md:flex">
             <a href="#about" className="story-link text-sm">About</a>
@@ -52,7 +52,7 @@ const Index = () => {
 
       <footer className="border-t border-border/60">
         <div className="container mx-auto flex flex-col items-center justify-between gap-3 px-6 py-6 md:flex-row">
-          <p className="text-xs text-muted-foreground">© {new Date().getFullYear()} Elchanan — For University President</p>
+          <p className="text-xs text-muted-foreground">© {new Date().getFullYear()} Elchanan Kiptoo — For University President</p>
           <a href="#top" className="text-xs text-muted-foreground hover:text-foreground">Back to top</a>
         </div>
       </footer>
