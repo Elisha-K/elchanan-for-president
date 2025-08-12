@@ -36,7 +36,7 @@ const Index = () => {
             <a href="#manifesto" className="story-link text-sm">Manifesto</a>
             <a href="#contact" className="story-link text-sm">Contact</a>
             <Button asChild variant="hero" size="sm" className="ml-2">
-              <a href="#manifesto" aria-label="Read the manifesto">Read Manifesto</a>
+              <a href="#manifesto" aria-label="Read the manifesto">Read my Manifesto</a>
             </Button>
           </div>
         </div>
