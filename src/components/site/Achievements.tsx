@@ -90,7 +90,6 @@ const ACHIEVEMENTS: Achievement[] = [
       "Proactively engaged with key university stakeholders to amplify student voices during times of crisis",
     details: [
       "Together with the Academic Rep, vouched for student safety to the DVC during the maandamano protests of 25th June, ensuring classes shifted online",
-      "Pushed for exam timetable re-modification after abrupt changes were made without prior student-body consultations",
       "Consistently collaborated with administration to ensure student perspectives were considered",
     ],
     impact: "Amplified student voices • Admin-council collaboration • Safety prioritized",
