@@ -8,47 +8,37 @@ const pillars = [
     icon: BicepsFlexed,
     points: [
       "End \"silo culture\" between dockets to ensure alignment on projects, timelines, resources and ideas",
-      "Implement a Council KPI system to track and publish measurable deliverables for Senators",
-      "Establish an Events Standards Charter to serve as QA/QC for events planned by the Council",
-      "Introduce leadership workshops to nurture latent potential in Stratizens"
+      "Introduce Council KPIs with measurable, trackable deliverables",
+      "Launch leadership workshops for council, club heads, classreps and any interested Stratizens",
     ],
   },
   {
-    title: "II. Transparent and Accountable Funding",
-    icon: BadgeDollarSign,
-    points: [
-      "Publish spending summaries for all Council activities in Quarterly Financial Briefs ensuring transparency and accountability",
-      "Secure a fixed percentage of net revenue (similar to scholarship allocation) to grow the Elimisha fund into a trust that rolls over each year",
-      "Hold quarterly barazas for students to question and engage with the Council in addition to an open-door governance policy",
-    ],
-  },
-  {
-    title: "III. Student Community and Welfare",
+    title: "II. Student Community and Welfare",
     icon: Handshake,
     points: [
-      "Strengthen mental health and suicide prevention efforts through peer-support training, \"Wellness First Responders\" per faculty, and quarterly mental health check-ins",
-      "Introduce a Peer Tutoring program to match high-performing students with those seeking academic support",
-      "Develop a clear, humane dress-code policy that prevents humiliation and academic disruption — no denial of CATs/exams due to debatable dress code issues",
-      "Diversify fundraising for Elimisha Fund via corporate partnerships, alumni outreach, and themed fundraising events",
+      "Expand and secure the Elimisha Fund with corporate partnerships, alumni outreach, and ongoing fundraisers",
+      "Partner with the Medical Centre & Mental Health Club for peer mentorship, suicide prevention, and quarterly mental health check-ins",
+      "Enforce a respectful, humane dress code policy — no denial of exams over subjective issues",
+      "Train Student Advocates to guide peers confidentially in academics, finances, mental health, and personal crises",
+      "Celebrate student achievements monthly in academics, leadership, arts, and sports",
+    ],
+  },
+  {
+    title: "III. Transparent and Accountable Funding",
+    icon: BadgeDollarSign,
+    points: [
+      "Hold quarterly barazas for open dialogue and council Q&A",
+      "Publish monthly press releases to keep Stratizens informed of council actions",
+      "Maintain an open-door governance culture where every student can be heard",
     ],
   },
   {
     title: "IV. Space & Resource Expansion",
     icon:Expand,
     points: [
-      "Develop a Sports Complex Chill Zone by transforming idle land into gazebos with seating and shaded decompressing areas",
-      "Finalize and operationalize the student online marketplace in collaboration with legal and finance offices",
-      "Link clubs with relevant companies for sponsorship, mentorship, and project collaborations",
-      "Build a searchable online inventory linked to the Lost and Found office for quick and convenient repossession of misplaced items",
-    ],
-  },
-  {
-    title: "V. Innovation Opportunities & Recognition",
-    icon: Rocket,
-    points: [
-      "Partner with @iLab, @iBiz, and innovation hubs to provide student's access to hackathons, entrepreneurship expos and mentorship",
-      "Develop a Student Skills Exchange platform to act as a hub for provisioning of peer-to-peer services such as design, tutoring, photography, coding and many others",
-      "Implement a Student Recognition Program to celebrate achievements in academics, sports, arts, leadership and community service",
+      "Launch a digital lost & found platform for quick and easy item retrieval",
+      "Operationalize the student e-commerce marketplace for safe, campus-wide buying and selling",
+      "Create a Sports Complex Chill Zone with shaded gazebos and seating for relaxation and socializing",
     ],
   },
 ] as const;
